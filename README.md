@@ -35,9 +35,9 @@ Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/) di komputer Anda.
    cd newton-fisika
 
 2. **Instal Dependency**
-
+    ```bash
     npm install
 
 3. **Jalankan Project**
-
+    ```bash
     npm run dev
