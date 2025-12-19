@@ -1,5 +1,5 @@
 import { MainLayout } from "../susunan/MainLayout";
-import { Calculator } from "../organisms/Calculator";
+// import { Calculator } from "../organisms/Calculator";
 import { NewtonFirstLaw } from "../organisms/NewtonFirstLaw";
 import { Simulation } from "../organisms/NewtonSecondLaw";
 import { NewtonThirdLaw } from "../organisms/NewtonThirdLaw";
@@ -15,13 +15,13 @@ const HomePage = () => {
           <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">Pahami Hukum Newton — Satu per satu, dengan contoh nyata</h2>
           <p className="mt-4 text-slate-600">Pelajari Hukum Newton I, II, III lewat penjelasan singkat, contoh soal, dan simulasi interaktif yang mudah diikuti.</p>
           <div className="mt-6 flex gap-3">
-            <Button onClick={() => document.getElementById("sim").scrollIntoView()}>Coba Simulasi</Button>
+            <Button onClick={() => document.getElementById("law1-sim").scrollIntoView()}>Coba Simulasi</Button>
             <Button variant="secondary" onClick={() => document.getElementById("lessons").scrollIntoView()}>
               Lihat Pelajaran
             </Button>
           </div>
         </div>
-        <Calculator />
+        {/* <Calculator /> */}
       </section>
 
       <Lessons />

@@ -11,7 +11,7 @@ export const Header = () => (
       {/* Navigasi tetap sama */}
       <nav className="hidden md:flex gap-8 text-sm font-medium text-slate-600">
         <a href="#lessons" className="hover:text-indigo-600 transition-colors">Pelajaran</a>
-        <a href="#sim" className="hover:text-indigo-600 transition-colors">Simulasi</a>
+        <a href="#law1-sim" className="hover:text-indigo-600 transition-colors">Simulasi</a>
       </nav>
     </div>
   </header>
